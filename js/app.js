@@ -24,8 +24,11 @@ function getRandomFont() {
 class Box extends React.Component {
   render(){
     return (
-      <div className="Box" style={{backgroundColor: getRandomColor(),color:getRandomColor(),borderColor:getRandomColor()}}>
-      <p className="Text" style={{fontFamily:getRandomFont(),fontSize:'3em'}}>LABORATORIA</p>
+      <div  className="Center">
+        <h1>RAMDON BOX REACT</h1>
+        <div className="Box" style={{backgroundColor: getRandomColor(),color:getRandomColor(),borderColor:getRandomColor()}}>
+          <p className="Text" style={{fontFamily:getRandomFont(),fontSize:'3em'}}>LABORATORIA</p>
+        </div>    
       </div>    
     );
   }
