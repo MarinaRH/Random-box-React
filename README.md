@@ -18,6 +18,8 @@ Mediante un contenedor ,obtener cambios aleatorios de los fondos de color,color 
 
 * Renderizamos el componente **Box** que estara dentro de **app** del html.
 
+* Listo!, Al refrescar tu página tendras estilos y colores diferentes en el mismo componente.
+
 
 ### `Demo`
 

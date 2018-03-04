@@ -1,4 +1,3 @@
-
 function getRandomColor() {
   var letters = '0123456789ABCDEF'.split('');
   var color = '#';
@@ -8,6 +7,7 @@ function getRandomColor() {
   return color;
 }
 
+// array de fontFamily
 var font=new Array(
   ['sans-serif'],
   ['roboto'],
